@@ -1,0 +1,18 @@
+version: '3'
+services:
+  base: &base
+    image: kanto
+    working_dir: /home/app/app
+    volumes:
+      - .:/home/app/app
+
+  base_build:
+    <<: *base
+    build: .
+    command: echo done
+
+  kanto:
+    <<: *base
+    container_name: kanto
+    depends_on: [base_build]
+    command: /bin/bash
