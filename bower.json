@@ -11,6 +11,10 @@
     "darthjee"
   ],
   "license": "MIT",
+  "dependencies": {
+    "angular-route": "1.4.8",
+    "angular": "1.4.8"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
