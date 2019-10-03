@@ -1,0 +1,21 @@
+{
+  "name": "kanto",
+  "homepage": "https://github.com/darthjee/kanto",
+  "description": "Simple AngularJS Router",
+  "main": "kanto.js",
+  "keywords": [
+    "angulajs",
+    "router"
+  ],
+  "authors": [
+    "darthjee"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
