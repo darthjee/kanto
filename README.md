@@ -1,0 +1,2 @@
+# kanto
+AngularJS Simple Router
